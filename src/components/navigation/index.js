@@ -4,6 +4,7 @@ import Logo from '../../assets/logo.svg';
 import Search from '../search';
 
 // Import NavLink
+import { NavLink } from 'react-router-dom'
 
 const Navigation = () => {
   const [petTypes, setPetTypes] = useState([]);
