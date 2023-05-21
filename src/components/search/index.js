@@ -19,6 +19,10 @@ const Search = () => {
 
     // use createSearchParams 
     const query = createSearchParams(searchQuery);
+    navigate({
+      pathname: "/search",
+      search: `?name=${searchQuery.name}`
+    })
 
     // imperatively redirect with useNavigate() returned function
   };
