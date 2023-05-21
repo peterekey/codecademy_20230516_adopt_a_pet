@@ -8,6 +8,7 @@ import { useSearchParams } from 'react-router-dom';
 const SearchPage = () => {
 
   // Get searchParams object from useSearchParams
+  const [ searchParams, setSearchParams] = useSearchParams()
 
   const petNameToFind = 'REPLACE ME';  // Get query parameter using searchParams object
 
