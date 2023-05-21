@@ -3,6 +3,7 @@ import Hero from '../../components/hero';
 import { getPets } from '../../api/petfinder';
 import Pet from '../../components/pet';
 // Import useSearchParams
+import { useSearchParams } from 'react-router-dom'; 
 
 const SearchPage = () => {
 
