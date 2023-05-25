@@ -9,6 +9,7 @@ const PetDetailsNotFound = () => {
 
   const goHome = () => {
     // Go home!
+    navigate("/")
   }
   
   return (
