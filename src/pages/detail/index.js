@@ -4,6 +4,7 @@ import Hero from '../../components/hero';
 
 // Import useParams
 import { useParams, Navigate } from 'react-router-dom'
+import PetDetailsNotFound from '../petDetailsNotFound';
 // Import Navigate
 
 const PetDetailsPage = () => {
@@ -33,7 +34,7 @@ const PetDetailsPage = () => {
         <h3>Loading...</h3>
       ) : error ? (
         <div>
-          {/* Redirect to /pet-details-not-found if there was an error! */}
+          <Navigate to="/pet-details-not-found" />
         </div>
       ) : (
         <main>
