@@ -1,5 +1,6 @@
 import React from 'react';
 // import useNavigate here.
+import { useNavigate } from 'react-router-dom'
 
 const PetDetailsNotFound = () => {
 
